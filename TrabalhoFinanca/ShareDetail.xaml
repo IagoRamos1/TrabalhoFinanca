@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFinanca.ShareDetail"
+             Title="Detalhes">
+    <VerticalStackLayout
+            Padding="30,0"
+            Spacing="30,0">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0">Nome curto:</Label>
+            <Label x:Name="shortName" Grid.Row="0" Grid.Column="1"></Label>
+            <Label Grid.Row="1" Grid.Column="0">Nome completo:</Label>
+            <Label x:Name="longName" Grid.Row="1" Grid.Column="1"></Label>
+            <Label Grid.Row="2" Grid.Column="0">Mudança regular de mercado:</Label>
+            <Label x:Name="regularMarketChange" Grid.Row="2" Grid.Column="1"></Label>
+            <Label Grid.Row="3" Grid.Column="0">Porcetagem regular de mudança de mercado:</Label>
+            <Label x:Name="regularMarketChangePercent" Grid.Row="3" Grid.Column="1"></Label>
+            
+
+
+        </Grid>
+
+
+    </VerticalStackLayout>
+
+
+</ContentPage>
